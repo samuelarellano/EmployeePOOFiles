@@ -9,6 +9,11 @@ namespace EmployeePOOFiles.Utilities.Interfaces
 {
     public interface IFormatterEmployee
     {
+        /// <summary>
+        /// Formats the specified employee.
+        /// </summary>
+        /// <param name="employee">The employee.</param>
+        /// <returns></returns>
         string Format(Employee employee);
     }
 }
